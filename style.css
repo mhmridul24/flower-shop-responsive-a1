@@ -44,3 +44,14 @@
 
 /* Responsive design */
 /* For mobile devie resolution  */
+@media screen and (max-width:576px) {
+    .links li{
+        display: none;
+    }
+    .links li:nth-child(4){
+        display: inline-block; 
+    }
+    .nav{
+        margin: 20px;
+    }
+}
