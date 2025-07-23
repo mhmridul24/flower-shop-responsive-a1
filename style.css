@@ -1,16 +1,21 @@
+/* Shared styles */
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: "Inter", sans-serif;
 }
-.neto-font{
-    font-family: "Neto Serif" , sans-serif;
+.noto-font{
+    font-family: "Noto Serif" , sans-serif;
 }
 
 .container{
     max-width: 1280px;
     margin: auto;
+}
+
+.heading-color{
+color: #E95A08;
 }
 
 /* Header navigation bar design */
@@ -42,6 +47,24 @@
     color: black;
 }
 
+/* Main Banner section */
+.title h2{
+    font-size: 65px;
+    font-weight: 700;
+/* line-height: 89px; */
+}
+.title p{
+    color: rgba(0, 0, 0, 0.50);
+    font-weight: 400;
+}
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin: 120px auto;
+}
+
+
 /* Responsive design */
 /* For mobile devie resolution  */
 @media screen and (max-width:576px) {
@@ -53,5 +76,30 @@
     }
     .nav{
         margin: 20px;
+    }
+
+    /* Banner section */
+    .banner{
+        flex-direction: column;
+        margin-top: 26px;
+        margin-bottom: 26px;
+    }
+    .banner img{
+        max-width: 100%;
+        height: auto;
+        
+    }
+    .title{
+        order: 2 ;
+        padding: 16px;
+    }
+    .title h2{
+        font-size: 24px;
+    }
+    .title p{
+        font-size: 14px;
+    }
+    .banner-right{
+        order: 1;
     }
 }
