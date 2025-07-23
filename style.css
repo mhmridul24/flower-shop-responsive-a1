@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+.neto-font{
+    font-family: "Neto Serif" , sans-serif;
+}
+
+.container{
+    max-width: 1280px;
+    margin: auto;
+}
+
+/* Header navigation bar design */
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+.links{
+    display: flex;
+    flex-direction: row;
+    gap: 48px;   
+}
+.links li{
+    list-style: none;
+}
+.links li a {
+    text-decoration: none;
+    font-weight: 400;
+    color: rgb(137, 135, 161);
+}
+.links .bold{
+    font-weight: 750;
+    color: black;
+}
+.links .exception{
+    color: black;
+}
+
+/* Responsive design */
+/* For mobile devie resolution  */
