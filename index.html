@@ -1,158 +1,223 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Flower Shop</title>
     <!-- linking CSS file -->
-     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 
     <!-- Adding Inter google font -->
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Adding Noto Serif Google Font -->
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
 
-<!-- linking fontawesome -->
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-</head>
-<body>
-
+    <!-- linking fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
     <header>
-        <nav class="nav container">
-            <div class="header-left">
-                <img src="assets/logo.png" alt="Website Logo">
-            </div>
-            <div class="header-right">
-                <ul class="links">
-                    <li><a class="bold" href="">Home</a></li>
-                    <li><a href="">Shop</a></li>
-                    <li><a href="">About Us</a></li>
-                    <li><a class="exception" href=""><i class="fa-solid fa-cart-shopping"></i> Cart ($56)</a></li>
-                </ul>
-            </div>
-        </nav>
+      <nav class="nav container">
+        <div class="header-left">
+          <img src="assets/logo.png" alt="Website Logo" />
+        </div>
+        <div class="header-right">
+          <ul class="links">
+            <li><a class="bold" href="">Home</a></li>
+            <li><a href="">Shop</a></li>
+            <li><a href="">About Us</a></li>
+            <li>
+              <a class="exception" href=""
+                ><i class="fa-solid fa-cart-shopping"></i> Cart ($56)</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
     </header>
 
     <main>
-        <section class="banner container ">
-            <div class="title">
-                <h2 class="noto-font">ALWAYS <span class="heading-color noto-font">FRESH <br>FLOWERS</span></h2>
-                <p class="description-text">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. </p>
+      <section class="banner container">
+        <div class="title">
+          <h2 class="noto-font">
+            ALWAYS
+            <span class="heading-color noto-font">FRESH <br />FLOWERS</span>
+          </h2>
+          <p class="description-text">
+            Indulge your senses with the beauty and fragrance of our fresh
+            flower shop. From classic roses to exotic blooms, we offer a wide
+            variety of fresh flowers that are perfect for any occasion.
+          </p>
+        </div>
+        <div class="banner-right">
+          <img src="assets/hero-flower.png" alt="Banner image" />
+        </div>
+      </section>
+      <!-- Product card section -->
+      <section class="card-section-title container">
+        <h2 class="heading noto-font">
+          <span class="heading heading-color noto-font">Our </span>Plants
+        </h2>
+        <p class="description-text">
+          Indulge your senses with the beauty and fragrance of our fresh flower
+          shop. From <br />classic roses to exotic blooms, we offer a wide
+          variety of fresh.
+        </p>
+        <div class="card-section">
+          <div class="card">
+            <div class="picture">
+              <img src="assets/sample-flower-image.png" alt="Flower image" />
             </div>
-            <div class="banner-right">
-                <img src="assets/hero-flower.png" alt="Banner image">
+            <div class="card-description">
+              <h2 class="card-title">Lily Blossom</h2>
+              <h2 class="card-price">20 USD</h2>
+              <button class="btn">ADD TO CART</button>
             </div>
-        </section>
-        <!-- Product card section -->
-         <section class="card-section-title container">
-            <h2 class="heading noto-font"> <span class="heading heading-color noto-font">Our </span>Plants</h2>
-            <p class="description-text">Indulge your senses with the beauty and fragrance of our fresh flower shop. From <br>classic roses to exotic blooms, we offer a wide variety of fresh.</p>
-            <div class="card-section ">
-                <div class="card">
-                    <div class="picture">
-                        <img src="assets/sample-flower-image.png" alt="Flower image">
-                    </div>
-                    <div class="card-description">
-                        <h2 class="card-title">Lily Blossom</h2>
-                        <h2 class="card-price">20 USD</h2>
-                        <button class="btn">ADD TO CART</button>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="picture">
-                        <img src="assets/sample-flower-image.png" alt="Flower image">
-                    </div>
-                    <div class="card-description">
-                        <h2 class="card-title">Lily Blossom</h2>
-                        <h2 class="card-price">18 USD</h2>
-                        <button class="btn">ADD TO CART</button>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="picture">
-                        <img src="assets/sample-flower-image.png" alt="Flower image">
-                    </div>
-                    <div class="card-description">
-                        <h2 class="card-title">Lily Blossom</h2>
-                        <h2 class="card-price">33 USD</h2>
-                        <button class="btn">ADD TO CART</button>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="picture">
-                        <img src="assets/sample-flower-image.png" alt="Flower image">
-                    </div>
-                    <div class="card-description">
-                        <h2 class="card-title">Lily Blossom</h2>
-                        <h2 class="card-price">24 USD</h2>
-                        <button class="btn">ADD TO CART</button>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="picture">
-                        <img src="assets/sample-flower-image.png" alt="Flower image">
-                    </div>
-                    <div class="card-description">
-                        <h2 class="card-title">Lily Blossom</h2>
-                        <h2 class="card-price">20 USD</h2>
-                        <button class="btn">ADD TO CART</button>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="picture">
-                        <img src="assets/sample-flower-image.png" alt="Flower image">
-                    </div>
-                    <div class="card-description">
-                        <h2 class="card-title">Lily Blossom</h2>
-                        <h2 class="card-price">14 USD</h2>
-                        <button class="btn">ADD TO CART</button>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="picture">
-                        <img src="assets/sample-flower-image.png" alt="Flower image">
-                    </div>
-                    <div class="card-description">
-                        <h2 class="card-title">Lily Blossom</h2>
-                        <h2 class="card-price">33 USD</h2>
-                        <button class="btn">ADD TO CART</button>
-                    </div>
-                </div>
-                <div class="card">
-                    <div class="picture">
-                        <img src="assets/sample-flower-image.png" alt="Flower image">
-                    </div>
-                    <div class="card-description">
-                        <h2 class="card-title">Lily Blossom</h2>
-                        <h2 class="card-price">20 USD</h2>
-                        <button class="btn">ADD TO CART</button>
-                    </div>
-                </div> 
+          </div>
+          <div class="card">
+            <div class="picture">
+              <img src="assets/sample-flower-image.png" alt="Flower image" />
             </div>
-         </section>
-         <!-- flower and plant lover section -->
-          <section class="customer-trust container">
+            <div class="card-description">
+              <h2 class="card-title">Lily Blossom</h2>
+              <h2 class="card-price">18 USD</h2>
+              <button class="btn">ADD TO CART</button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="picture">
+              <img src="assets/sample-flower-image.png" alt="Flower image" />
+            </div>
+            <div class="card-description">
+              <h2 class="card-title">Lily Blossom</h2>
+              <h2 class="card-price">33 USD</h2>
+              <button class="btn">ADD TO CART</button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="picture">
+              <img src="assets/sample-flower-image.png" alt="Flower image" />
+            </div>
+            <div class="card-description">
+              <h2 class="card-title">Lily Blossom</h2>
+              <h2 class="card-price">24 USD</h2>
+              <button class="btn">ADD TO CART</button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="picture">
+              <img src="assets/sample-flower-image.png" alt="Flower image" />
+            </div>
+            <div class="card-description">
+              <h2 class="card-title">Lily Blossom</h2>
+              <h2 class="card-price">20 USD</h2>
+              <button class="btn">ADD TO CART</button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="picture">
+              <img src="assets/sample-flower-image.png" alt="Flower image" />
+            </div>
+            <div class="card-description">
+              <h2 class="card-title">Lily Blossom</h2>
+              <h2 class="card-price">14 USD</h2>
+              <button class="btn">ADD TO CART</button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="picture">
+              <img src="assets/sample-flower-image.png" alt="Flower image" />
+            </div>
+            <div class="card-description">
+              <h2 class="card-title">Lily Blossom</h2>
+              <h2 class="card-price">33 USD</h2>
+              <button class="btn">ADD TO CART</button>
+            </div>
+          </div>
+          <div class="card">
+            <div class="picture">
+              <img src="assets/sample-flower-image.png" alt="Flower image" />
+            </div>
+            <div class="card-description">
+              <h2 class="card-title">Lily Blossom</h2>
+              <h2 class="card-price">20 USD</h2>
+              <button class="btn">ADD TO CART</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- flower and plant lover section -->
+      <section class="container">
+        <div class="customer-trust-wrapper">
+          <div class="customer-trust">
             <div class="customer-trust-left">
-                <img src="assets/flower-store.png" alt="A man making flower bouquet">
-                <img src="assets/trusted-badge.png" alt="Trusted badge sticker" class="badge">
-            </div>
-            <div class="customer-trust-right">
-                <h2 class="heading noto-font">Flower & Plants <br>Lover</h2>
-                <ul>
-                    <li class="description-text">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
-                    <li class="description-text">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
-                    <li class="description-text">Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh.</li>
-                </ul>
+              <img
+                src="assets/flower-store.png"
+                alt="A man making flower bouquet"
+              />
             </div>
 
-          </section>
+            <div class="customer-trust-right">
+              <h2 class="heading noto-font">Flower & Plants <span class="mobile-hide"><br /></span> Lover</h2>
+              <ul>
+                <li class="description-text">
+                  Indulge your senses with the beauty and fragrance of our fresh
+                  flower shop. From classic roses to exotic blooms, we offer a
+                  wide variety of fresh.
+                </li>
+                <li class="description-text">
+                  Indulge your senses with the beauty and fragrance of our fresh
+                  flower shop. From classic roses to exotic blooms, we offer a
+                  wide variety of fresh.
+                </li>
+                <li class="description-text">
+                  Indulge your senses with the beauty and fragrance of our fresh
+                  flower shop. From classic roses to exotic blooms, we offer a
+                  wide variety of fresh.
+                </li>
+              </ul>
+            </div>
+          </div>
+          <img src="assets/trusted-badge.png" alt="Trusted badge sticker" class="badge">
+        </div>
+      </section>
+      <!-- Deals container -->
+      <section class="deals container">
+        <h2 class="heading noto-font">
+          <span class="heading-color noto-font">Latest</span> Deals
+        </h2>
+        <p class="description-text">
+          Indulge your senses with the beauty and fragrance of our fresh flower
+          shop. From classic roses to exotic blooms, we offer a wide variety of
+          fresh.
+        </p>
+        <div class="picture-container">
+          <div class="picture-container-left">
+            <img src="" alt="" />
+            <img src="" alt="" />
+          </div>
+          <div class="picture-container-right">
+            <img src="" alt="" />
+          </div>
+        </div>
+      </section>
     </main>
-    
-</body>
+  </body>
 </html>
