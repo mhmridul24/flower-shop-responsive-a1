@@ -118,7 +118,26 @@ color: #E95A08;
     width: 100%;
     /* overflow: hidden; */
 }
-
+/* Customer trust section */
+.customer-trust{
+    display: flex;
+    gap: 80px;
+    margin-top: 150px;
+    margin-bottom: 19px;   
+    
+}
+.customer-trust-right > ul >li{
+    margin-top: 20px;
+}
+.badge{
+    display: block;
+    position: relative;
+    width: 250px;
+    height: auto;
+    top: -700px;
+    left: 400px;
+    /* box-shadow:-4px 10px 4px 0px rgba(0, 0, 0, 0.25); */
+}
 
 /* Responsive design */
 /* For mobile devie resolution  */
