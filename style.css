@@ -140,14 +140,100 @@ color: #E95A08;
     /* top: -100px;
     right: 630px; */
     top: -15%;
-    right: 63%;
+    right: 48%;
     width: 200px;
     height: auto;
 }
 .customer-trust-left  img{
-    width: 100%;
+    width: auto;
     height: auto;
     display: block;
+}
+
+/* Deals section */
+.deals-section{
+    text-align: center;
+}
+.deals-section p{
+    text-align: center;
+    padding: 15px;
+}
+.deal-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.left-deals{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.deal-card1{
+    background-image: url(assets/deal-bloom.png);
+    width: 367px;
+    height: 201px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.deal-card2{
+    background-image: url(assets/deal-ana.png);
+    width: 367px;
+    height: 198px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.deal-card3{
+    background-image: url(assets/deal-zabo.png);
+    width: 700px;
+    height: 419px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.deal-info {
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 15px;
+}
+.deal-info h3{
+    font-size:10px ;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 10px;
+    /* padding: 10px; */
+}
+.deal-info h3{
+    font-size:32px ;
+    color: white;
+}
+.deal-info a{
+    color: white;
+    font-size: 20px;
 }
 
 /* Responsive design */
@@ -244,6 +330,7 @@ color: #E95A08;
 }
 .customer-trust-left  img{
     padding: 10px;
+    width: 100%;
 }
 .customer-trust-right > ul > li {
     margin-top: 10px;
@@ -255,4 +342,17 @@ color: #E95A08;
 .mobile-hide{
     display: none;
 }
+
+/* Deals section */
+.deals-section{
+    padding: 10px;
+}
+.deal-card3{
+    width: 367px;
+    height: 198px;
+}
+.deal-container{
+    margin-top: 30px;
+}
+
 }
