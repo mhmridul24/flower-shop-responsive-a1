@@ -272,6 +272,45 @@ color: #E95A08;
     
 }
 
+/* Footer decoration */
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    line-height: 50px;
+}
+.footer{
+    margin-top: 30px;
+}
+.footer-nav > ul > li> a{
+    text-decoration: none;
+}
+.footer-nav > ul > li{
+    margin
+}
+.footer-nav ul {
+    list-style: none;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 20%;
+    line-height: 30px;
+}
+.logo img{
+    max-width:135px;
+    width: 100%;
+    height: auto;
+}
+.social-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    gap: 30px;
+}
+
 /* Responsive design */
 /* For mobile devie resolution  */
 @media screen and (max-width:576px) {
@@ -298,7 +337,7 @@ color: #E95A08;
     }
     .title{
         order: 2 ;
-        padding: 16px;
+        padding: 20px;
     }
     .title h2{
         font-size: 24px;
@@ -314,8 +353,9 @@ color: #E95A08;
     .card-section{
         display: grid;
     grid-template-columns: repeat(2,1fr);
-    padding: 10px;
+    padding: 20px;
     }
+    
     .card{
     margin-top: 15px;
     }
@@ -372,7 +412,7 @@ color: #E95A08;
     margin-top: 10px;
 }
 .customer-trust-right{
-    padding: 25px;
+    padding: 35px;
 }
     
 .mobile-hide{
@@ -394,12 +434,26 @@ color: #E95A08;
 /* subscription container */
 .subscription-container{
     width: 100%;
-    height: 333px;
+    height: 233px;
 }
 .heading , .input-box{
     padding: 15px;
 }
 .subscription-container .heading h2 {
     font-size: 25px;
+}
+/* Footer section */
+footer{
+    flex-direction: column;
+    padding: 30px;
+}
+.logo{
+    flex-wrap: wrap;
+    max-width: 100%;
+    line-height: 30px;
+}
+.social-links{
+    justify-content: flex-start;
+    margin-top: 20px;
 }
 }
