@@ -164,7 +164,7 @@ color: #E95A08;
     flex-wrap: wrap;
     gap: 20px;
     margin-top: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 .left-deals{
     display: flex;
@@ -234,6 +234,42 @@ color: #E95A08;
 .deal-info a{
     color: white;
     font-size: 20px;
+}
+/* subscription-container design */
+.subscription-container{
+    background-image: url(assets/news-letter-bg.png);
+    width: 100%;
+    height: 433px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+}
+.subscription-container .heading {
+    font-size: 2.2rem;
+    color: white;
+    margin-bottom: 20px;
+}
+.input-box{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 900px;
+}
+.input-box .email-input{
+    padding: 10px;
+    border: none;
+    flex: 1 1 60%;
+}
+.email-input::placeholder{
+    color: rgba(0, 0, 0, 0.50);
+    font-family: "Inter", sans-serif;
+    
 }
 
 /* Responsive design */
@@ -355,4 +391,15 @@ color: #E95A08;
     margin-top: 30px;
 }
 
+/* subscription container */
+.subscription-container{
+    width: 100%;
+    height: 333px;
+}
+.heading , .input-box{
+    padding: 15px;
+}
+.subscription-container .heading h2 {
+    font-size: 25px;
+}
 }
